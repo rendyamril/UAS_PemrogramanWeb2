@@ -14,4 +14,5 @@
 Untuk website bisa diakses melalui link berikut ini
 - Frontend : https://kuliah.rendy.life/
 - Backend : https://kuliah.rendy.life/admin/
-<br>Kredensial : Terlampir di lembar jawaban UAS
+
+Kredensial : Terlampir di lembar jawaban UAS
