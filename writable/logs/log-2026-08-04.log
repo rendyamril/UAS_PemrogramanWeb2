@@ -1,0 +1,546 @@
+ERROR - 2026-08-04 07:06:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:06:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:09:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:09:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:09:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:10:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:10:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:17:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:17:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:19:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:19:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-08-04 07:21:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u113509989_Q5IB0'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u113509989/domains/rendy.life/public_html/kuliah/app/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+#5 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#6 /home/u113509989/domains/rendy.life/public_html/kuliah/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/u113509989/domains/rendy.life/public_html/kuliah/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/u113509989/domains/rendy.life/public_html/kuliah/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-08-04 07:21:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1743): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/AdminDashboard.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminDashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 18:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-08-04 18:41:43 --> Cannot add or update a child row: a foreign key constraint fails (`u113509989_YZtmJ`.`articles`, CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(670): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/AdminArticle.php(53): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminArticle->store()
+11 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-08-04 18:41:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`u113509989_YZtmJ`.`articles`, CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[Method: POST, Route: admin/artikel/store]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(670): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/AdminArticle.php(53): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminArticle->store()
+ 8 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-08-04 18:41:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`u113509989_YZtmJ`.`articles`, CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(670): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/AdminArticle.php(53): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminArticle->store()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-08-04 18:41:43 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`u113509989_YZtmJ`.`articles`, CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(670): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/AdminArticle.php(53): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminArticle->store()
+11 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 18:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 18:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-04 19:21:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/template.php"
+[Method: GET, Route: admin/profile/edit]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminProfile.php(18): view()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminProfile->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 19:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-04 19:23:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/template.php"
+[Method: GET, Route: admin/profile/edit]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminProfile.php(18): view()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminProfile->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 19:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-04 19:24:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/.php"
+[Method: GET, Route: admin/profile/edit]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminProfile.php(18): view()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminProfile->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 19:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-04 19:26:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/.php"
+[Method: GET, Route: admin/profile/edit]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminProfile.php(18): view()
+ 5 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\AdminProfile->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-08-04 19:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 19:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
