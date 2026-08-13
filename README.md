@@ -12,5 +12,6 @@
 ## Launch Site
 
 Untuk website bisa diakses melalui link berikut ini
-- https://kuliah.rendy.life/
-
+- Frontend : https://kuliah.rendy.life/
+- Backend : https://kuliah.rendy.life/admin/
+Kredensial : Terlampir di lembar jawaban 
